@@ -1,6 +1,7 @@
 {
     "_copy_without_render": [
-        "terraform/*"
+        "terraform/*",
+        "docs/*"
     ],
     "module_name": "template",
     "short_description": "A Terraform Module"
