@@ -13,17 +13,6 @@ You will be prompted for basic info (your name, module name, etc.) which will be
 
 That's all you need to get started.
 
-## Testing the module
-
-The `tests` folder implements a simple test harness.
-
-In order to use the testing suite you will need to do the following:
-
-1. Write test cases that use the module, placing each test case in its own directory under `tests/`, e.g. `tests/<test_case1>`
-2. Install `go`
-3. Run `make terratest/install` to install the prerequisites
-4. Run `make test` for your suite of tests to run
-
 ### Example test case
 For the most part, you will create simple terraform code that will just instantiate your module
 ```terraform
@@ -44,8 +33,6 @@ module "example_2" {
   variable_2 = "gamma"
 }
 ```
-
-
 
 ## Inputs
 
