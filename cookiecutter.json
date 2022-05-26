@@ -1,0 +1,11 @@
+{
+    "_copy_without_render": [
+        "terraform/*"
+    ],
+    "create_org_repo": "no",
+    "create_repo": "no",
+    "github_releases_token": "",
+    "github_username": "plus3it",
+    "module_name": "template",
+    "short_description": "A Terraform Module"
+}
