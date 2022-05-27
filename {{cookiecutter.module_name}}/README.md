@@ -5,7 +5,7 @@
 
 
 ## pre commit hook installation
-We've included a pre-commit hook here, you don't have to use it. Might be good if you did.
+We've included a pre-commit hook here, you don't have to use it.
 
 ```
 pip install pre-commit
